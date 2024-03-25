@@ -1,0 +1,6 @@
+1. Show how css is setup, flexbox, container etc.
+2. Explain the treshold in the browser
+3. Show the active class in the browser / JS
+4. Uncomment the active class in the css
+5. Uncomment console.log(d);
+6. Uncomment text back

@@ -1,0 +1,59 @@
+body {
+    margin: 0;
+}
+
+hr {
+    position: fixed;
+    top: 50vh;
+    width: 100vw;
+    border-top: 1px dashed #666;
+}
+
+p {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.scene {
+    height: 50vh;
+    text-align: center;
+    display: flex;
+    margin-top: 200px;
+    background-color: beige;
+    margin: 25vh auto;
+    border: 2px solid black;
+    justify-content: center;
+    align-items: center;
+    width: 500px;
+}
+
+.container {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.graphic-container, .slide-containers {
+    max-width: 50%;
+}
+
+.graphic-container {
+    position: sticky;
+    display: flex;
+    align-items: center;
+    height: 100vh;
+    top: 0px
+}
+
+#cat_img {
+    height: 300px;
+}
+
+#graphic-text {
+    font-size: 2em;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    width: 300px;
+}
+
+/* .scene.active {
+    background-color: aqua;
+} */
