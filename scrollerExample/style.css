@@ -54,6 +54,6 @@ p {
     width: 300px;
 }
 
-/* .scene.active {
+.scene.active {
     background-color: aqua;
-} */
+}

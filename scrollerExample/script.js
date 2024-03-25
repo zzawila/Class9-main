@@ -25,18 +25,18 @@ const scroller = new Scroller({
   // the `enter` event is triggered every time a scene crosses the threshold
   scroller.on('scene:enter', d => {
     // Add an active class to the div when it crosses in
-    // d.element.classList.add('active');
+    d.element.classList.add('active');
     // console.log the d property
-    // console.log(d);
+    console.log(d.index);
     
     // change the text in the graphc container when it comes in
-    // graphic_container_text.innerText = text_change[d.index];
+    graphic_container_text.innerText = text_change[d.index];
   });
   
   // the `exit` event is triggered every time a scene exits the threshold
   scroller.on('scene:exit', d => {
     // remove active class when it leaves 
-    // d.element.classList.remove('active');
+    d.element.classList.remove('active');
   });
 
 

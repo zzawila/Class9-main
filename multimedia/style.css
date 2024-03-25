@@ -1,32 +1,32 @@
 .image {
-    /* width: 300px; */
+    width: 300px;
     /* Add Width */
-    /*  height: auto; */
+    height: auto;
     /* Show why don't include height */
-    /* display: inline-block;  Display side by side */
+    display: inline-block;    /* Display side by side */
 }
 
 body {
-    /* background-color: #f05400;
-    background-image: url("/img/textured-paper.png"); */
-    /* background-position: center; 
+    background-color: #f05400;
+    background-image: url("img/textured-paper.png");
+    /* background-position: center;  */
     /* Center the image */
-    /* background-repeat: no-repeat; 
+    /* background-repeat: no-repeat;  */
     /* Do not repeat the image */
-    /* background-size: cover;
+    /* background-size: cover; */
     /* Resize the background image to cover the entire container */
 }
 
 #video {
-    /* width: 300px; */
+    width: 300px;
     /* Add Width */
-    /* height: 400px; */
+    height: auto;
     /* Show why don't include height */
 }
 
 .iFrame {
-    /* width: 500px;  */
+    width: 500px; 
     /* Fixed Width */
-    /* height: 281.25px;  */
+    height: 281.25px; 
     /* Fixed Height, 16:9 Aspect Ratio (divide 9 by 16 = 0.5625 * 500) */ 
 }
